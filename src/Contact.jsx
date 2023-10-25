@@ -1,4 +1,7 @@
 import React from "react";
+import mail from "./mail2.png";
+import map from "./map.png";
+
 
 const Contact = () => {
     return (
@@ -22,14 +25,14 @@ const Contact = () => {
 
                         <div className="contact-location">
                             <div>
-                                <img src="map.png" height="30px" alt="c logo" />
+                                <img src={map} height="30px" alt="c logo" />
                             </div>
                             Location<br></br>
                             Indore,India
                         </div>
                         <div className="contact-mail">
                             <div>
-                                <img src="mail2.png" height="30px" alt="c logo" />
+                                <img src={mail} height="30px" alt="c logo" />
                             </div>
                             Mail<br></br>
                             chiragdarekar101112@gmail.com

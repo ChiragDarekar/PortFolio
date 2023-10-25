@@ -1,4 +1,17 @@
 import React from "react";
+import html from "./html.png";
+import css from "./css.png";
+import js from "./js.png";
+import bootstrap from "./bootstrap.png";
+import react from "./react.png";
+
+import aws from "./aws.png";
+import cyber from "./cyber.png";
+import degree from "./degree.png";
+import c from "./c.png";
+import java from "./java.png";
+import kali from "./kali.png";
+import sql from "./sql.png";
 
 
 const About = () => {
@@ -15,8 +28,8 @@ const About = () => {
                         <div className="aboutbox1">
                             <div>
                                 Skills : <br></br>
-                                Front-End : HTML5 | CSS3  | JS  | Bootstrap | React JSX    <img src="html.png" height="30px" alt="html logo" />  | <img src="css.png" height="30px" alt="Css logo" /> | <img src="js.png" height="30px" alt="JS logo" /> | <img src="bootstrap.png" height="30px" alt="BootStrap logo" /> | <img src="react.png" height="30px" alt="React JS logo" /><br></br><br></br>
-                                Languages:  C (DataStructure) | Java (OOPs) <img src="c.png" height="30px" alt="c logo" /> | <img src="java.png" height="30px" alt="java logo" />
+                                Front-End : HTML5 | CSS3  | JS  | Bootstrap | React JSX    <img src={html} height="30px" alt="html logo" />  | <img src={css} height="30px" alt="Css logo" /> | <img src={js} height="30px" alt="JS logo" /> | <img src={bootstrap} height="30px" alt="BootStrap logo" /> | <img src={react} height="30px" alt="React JS logo" /><br></br><br></br>
+                                Languages:  C (DataStructure) | Java (OOPs) <img src={c} height="30px" alt="c logo" /> | <img src={java} height="30px" alt="java logo" />
                                 <br></br><br></br>
 
 
@@ -24,12 +37,12 @@ const About = () => {
                                 Other Skills :
 
                                 Structured Query Language (SQL) |
-                                Linux Administration (Ethical Hacking) <img src="sql.png" height="30px" alt="c logo" /> | <img src="kali.png" height="30px" alt="c logo" />
+                                Linux Administration (Ethical Hacking) <img src={sql} height="30px" alt="c logo" /> | <img src={kali} height="30px" alt="c logo" />
                                 <br></br><br></br>
 
                                 Specialized Skills :
                                 Amazon Web Services (AWS) (Cloud Computing) |
-                                Information Security (Cyber Security) <img src="aws.png" height="30px" alt="java logo" /> | <img src="cyber.png" height="30px" alt="java logo" />
+                                Information Security (Cyber Security) <img src={aws} height="30px" alt="java logo" /> | <img src={cyber} height="30px" alt="java logo" />
 
                             </div>
 

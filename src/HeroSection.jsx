@@ -1,4 +1,11 @@
 import React from "react";
+import html from "./html.png";
+import css from "./css.png";
+import js from "./js.png";
+import bootstrap from "./bootstrap.png";
+import react from "./react.png";
+import profileimg from "./mun5.jpg";
+
 
 const HeroSection = () => {
     return (
@@ -27,22 +34,20 @@ const HeroSection = () => {
                         </div>
 
                         <div className="Tech-Stacks"> Tech Stack  |
-                            <img src="html.png" height="30px" alt="html logo" />
-                            <img src="css.png" height="30px" alt="Css logo" />
-                            <img src="js.png" height="30px" alt="JS logo" />
-                            <img src="bootstrap.png" height="30px" alt="BootStrap logo" />
-                            <img src="react.png" height="30px" alt="React JS logo" />
+                            <img src={html} height="30px" alt="html logo" />
+                            <img src={css} height="30px" alt="Css logo" />
+                            <img src={js} height="30px" alt="JS logo" />
+                            <img src={bootstrap} height="30px" alt="BootStrap logo" />
+                            <img src={react} height="30px" alt="React JS logo" />
                         </div>
 
                     </div>
-
-
-
+<picture>
                     <div className="Photo">
-                        <a href="https://www.instagram.com/chirag.theog/"><img className="audreyimg" src="mun4.jpg" height="210px" alt="ProfilePhoto" /></a>
+                        <a href="https://www.instagram.com/chirag.theog/"><img className="audreyimg" src={profileimg} loading="lazy" role="presentation" width="210px" height="210px" alt="ProfilePhoto" /></a>
                     </div>
-
-
+</picture>
+                    
 
                 </div>
 

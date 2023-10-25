@@ -1,5 +1,7 @@
 import React from "react";
-
+import cloneapp from "./amazonclone.png";
+import weatherimg from "./WeatherAPiImage.png";
+import todoimg from "./todoapp.png";
 
 const Projects = () => {
 
@@ -18,10 +20,10 @@ const Projects = () => {
 
                         <div className="project1screenshot">
 
-                            <img src="amazonclone.png" height="130px" />
+                            <a href="https://amazonclonechiragdarekar.netlify.app/"> <img src={cloneapp} height="130px" /> </a>
                         </div>
                         <p>
-                            HTML5 & CSS3  | <i href="" class="fa-brands fa-github fa-lg"></i>   |   <a >Live Demo    <i class="fa-solid fa-up-right-from-square fa-sm"></i></a>
+                            HTML5 & CSS3  | <a id="link-project" href="https://github.com/ChiragDarekar/AmazonCloneNewRepo"><i href="" class="fa-brands fa-github fa-lg"></i> </a>  |   <a id="link-project" href="https://amazonclonechiragdarekar.netlify.app/">Live Demo    <i class="fa-solid fa-up-right-from-square fa-sm"></i></a>
                         </p>
 
                     </div>
@@ -31,11 +33,11 @@ const Projects = () => {
                     <div className="project1">
 
                         <p>
-                            HTML5 | CSS3 & React JS | <i class="fa-brands fa-github fa-lg"></i>   |   <a >Live Demo    <i class="fa-solid fa-up-right-from-square fa-sm"></i></a>
+                            HTML5 | CSS3 & React JS | <i class="fa-brands fa-github fa-lg"></i>   |   <a id="link-project" href="https://weatherforecastchiragdarekar.netlify.app/">Live Demo    <i class="fa-solid fa-up-right-from-square fa-sm"></i></a>
                         </p>
                         <div className="project1screenshot">
 
-                            <img src="WeatherAPiImage.png" height="130px" ></img>
+                            <a href="https://weatherforecastchiragdarekar.netlify.app/"><img src={weatherimg} height="130px" ></img></a>
                         </div>
 
                         <div className="project1-text">
@@ -58,10 +60,10 @@ const Projects = () => {
 
                         <div className="project1screenshot">
 
-                            <img src="todoapp.png" height="130px" />
+                            <a href="https://todochiragdarekar.000webhostapp.com/"><img src={todoimg} height="130px" /></a>
                         </div>
                         <p>
-                            HTML5 | CSS3 & React JS | <i class="fa-brands fa-github fa-lg"></i>   |   <a >Live Demo    <i class="fa-solid fa-up-right-from-square fa-sm"></i></a>
+                            HTML5 | CSS3 & React JS | <a id="link-project" href="https://github.com/ChiragDarekar/ToDoRemoteRepo"><i class="fa-brands fa-github fa-lg"></i></a>   |   <a id="link-project" href="https://todochiragdarekar.000webhostapp.com/">Live Demo    <i class="fa-solid fa-up-right-from-square fa-sm"></i></a>
                         </p>
 
                     </div>
