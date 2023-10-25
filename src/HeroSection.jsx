@@ -21,8 +21,8 @@ const HeroSection = () => {
                         </p>
 
                         <div className="Social-Links" >
-                            <i class="fa-brands fa-linkedin Social-linkedin"></i>
-                            <i className="fa-brands fa-github Social-git"></i>
+                           <a href="https://www.linkedin.com/in/chiragdarekar/" id="link-socio" ><i class="fa-brands fa-linkedin Social-linkedin"></i></a> 
+                            <a href="https://github.com/ChiragDarekar" id="link-socio"  ><i className="fa-brands fa-github Social-git"></i></a>
 
                         </div>
 
@@ -39,7 +39,7 @@ const HeroSection = () => {
 
 
                     <div className="Photo">
-                        <img className="audreyimg" src="mun4.jpg" height="210px" alt="ProfilePhoto" />
+                        <a href="https://www.instagram.com/chirag.theog/"><img className="audreyimg" src="mun4.jpg" height="210px" alt="ProfilePhoto" /></a>
                     </div>
 
 

@@ -21,7 +21,7 @@ const Projects = () => {
                             <img src="amazonclone.png" height="130px" />
                         </div>
                         <p>
-                            HTML5 & CSS3  | <i class="fa-brands fa-github fa-lg"></i>   |   <a >Live Demo    <i class="fa-solid fa-up-right-from-square fa-sm"></i></a>
+                            HTML5 & CSS3  | <i href="" class="fa-brands fa-github fa-lg"></i>   |   <a >Live Demo    <i class="fa-solid fa-up-right-from-square fa-sm"></i></a>
                         </p>
 
                     </div>
@@ -41,7 +41,8 @@ const Projects = () => {
                         <div className="project1-text">
                             <h2>Weather Forecast App</h2>
                             <br></br>
-                            Just a Simple Weather Forecast Website  using OpenWeatherAPI's <br></br>  Application Programming Interface 
+                            Weather apps are essential for travelers, helping them plan their trips effectively , <br></br>
+                            So just a Simple Weather Forecast Website  using OpenWeatherAPI's <br></br>  Application Programming Interface  
                         </div>
 
                     </div>
@@ -52,7 +53,7 @@ const Projects = () => {
                         <div className="project1-text">
                             <h2>To-Do List App</h2>
                             <br></br>
-                            Love Designing Websites with CSS & Endedup Creating a Fabulous <br></br>Clone of (Shoping Website) Amazon.com's Front Page
+                            If you struggle with managing tasks and staying organized <br></br> give a try to my To-Do App
                         </div>
 
                         <div className="project1screenshot">

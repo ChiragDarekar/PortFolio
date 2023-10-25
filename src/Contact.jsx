@@ -45,8 +45,8 @@ const Contact = () => {
 
                     </div>
                     <div>
-                        <i class="fa-brands fa-linkedin Social-linkedin fa-lg"></i>
-                        <i className="fa-brands fa-github Social-git fa-lg"></i>
+                        <a href="https://www.linkedin.com/in/chiragdarekar/" id="link-copy"><i class="fa-brands fa-linkedin Social-linkedin fa-lg"></i></a>
+                        <a href="https://github.com/ChiragDarekar" id="link-copy"><i className="fa-brands fa-github Social-git fa-lg"></i></a>
                     </div>
                 </div>
             </div>
