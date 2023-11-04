@@ -15,7 +15,7 @@ const Projects = () => {
                         <div className="project1-text">
                             <h2>Amazon Clone</h2>
                             <br></br>
-                            Love Designing Websites with CSS & Endedup Creating a Fabulous <br></br>Clone of (Shoping Website) Amazon.com's Front Page 
+                            Love Designing Websites with CSS & Endedup Creating a Fabulous <br></br>Clone of (Shoping Website) Amazon.com's Home Page 
                         </div>
 
                         <div className="project1screenshot">

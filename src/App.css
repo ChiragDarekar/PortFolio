@@ -1,4 +1,35 @@
 
+@keyframes SlideInLeft {
+  from {
+  transform: translateX(-1000px);
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+}
+
+
+@keyframes SlideInBottom {
+  from {
+  transform: translateY(-700px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}
+
+
+@keyframes SlideInTop {
+  from {
+  transform: translateY(-700px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}
 
 /** Navbar Section  **/
 
@@ -15,6 +46,9 @@
   background-color: #FFFFFF;
   position: fixed;
   width: 100%;
+  
+  
+  
 
 
 }
@@ -109,11 +143,13 @@ margin-right: 5%;
 
 .HeroSection {
   margin-top: 8rem;
-  height: 100%;
+  height:100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+ /* background-image: url("back1.jpg"); */
+  
 
 }
 
@@ -132,14 +168,15 @@ margin-right: 5%;
 
 .Developer {
   width: 30rem;
-  
+  animation: SlideInTop 1s ease-in 0s 1 normal none;
 
 }
 
 .Developer p {
-  font-family: "Segoe UI Black", "Arial Black", "Arial Rounded MT Bold";
+  font-family: "Segoe UI Black", "Arial Rounded MT Bold" , "Arial Black";
   font-weight: lighter;
   font-size: small;
+  
 }
 
 
@@ -168,6 +205,7 @@ color: black;
 
   border-radius: 50%;
   box-shadow: 0 1px 0px 3px rgba(59, 126, 242, 0.442), 0 4px 10px 8px rgba(0, 0, 0, 0.086);
+  animation: SlideInLeft 1s ease-in 0s 1 normal none;
 
 }
 
@@ -193,6 +231,8 @@ color: black;
   justify-content: space-between;
   align-items: center;
 }
+
+
 
 /** Blobs Section **/
 /**
@@ -376,6 +416,7 @@ font-size: large;
 }
 
 
+
 .project1-text {
 
   display: flex;
@@ -406,6 +447,9 @@ font-size: large;
   color:black;
   text-decoration: none;
 }
+
+
+
 
 /** Experiences **/
 

@@ -10,19 +10,22 @@ import BootNav from "./BootNav";
 
 
 
-const App = () => {
+
+
+
+
+function App()  {
   return (
     <>
 
-<Navbar/>
-<HeroSection/>
+      <Navbar />
+      <HeroSection />
+      <About />
+      <Experiences />
+      <Projects />
+      <Contact />
 
-<About/>
-<Experiences/>
-<Projects/>
-<Contact/>
-      
-      
+
     </>
   );
 }

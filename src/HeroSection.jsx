@@ -5,6 +5,8 @@ import js from "./js.png";
 import bootstrap from "./bootstrap.png";
 import react from "./react.png";
 import profileimg from "./mun5.jpg";
+import image from "./back1.jpg";
+
 
 
 const HeroSection = () => {
